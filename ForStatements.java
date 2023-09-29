@@ -13,11 +13,11 @@ public class ForStatements
         for (int j = 10; j > 0; j = j - 2) {
             System.out.println("j is equal to "+j);
         }
-        for (int k = 10; k == 0; k = k - 3) {
+        for (int k = 10; k != 0; k = k - 3) {
             System.out.println( "k is equal to "+k);
         }
         /**
-         * K cannot equal 0 in this loop, 10 - 3 - 3 - 3 = 1
+         * K cannot equal 0 in this loop, it will go infinitely.
          */
     }
     
